@@ -6,20 +6,23 @@ Replace every instance of 'Navy' in "infile" with 'Army'.
 Replacements are case-sensitive.
 Write the output to the file specifed by the variable 'outfile'.
 code block
-```function q1()
+
+function q1()
 {
   #Valid Variables are:
   infile=$1
   outfile=$2
   #Your code here
-} ```
-```function q1()
+} 
+function q1()
 {
   #Valid Variables are:
   infile=$1
   outfile=$2
   sed -e 's/cat/dog/g' -e 's/Navy/Army/g' $infile > $outfile 
-} ```
+}
+
+
 # 2.Create a script that will print to standard output all user names from the /etc/passwd file
 
 {
