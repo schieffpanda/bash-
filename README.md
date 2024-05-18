@@ -13,13 +13,13 @@ function q1()
   infile=$1
   outfile=$2
   #Your code here
-} 
+} ```
 function q1()
 {
   #Valid Variables are:
   infile=$1
   outfile=$2
-  sed -e 's/cat/dog/g' -e 's/Navy/Army/g' $infile > $outfile 
+  sed -e 's/cat/dog/g' -e 's/Navy/Army/g' $infile > $outfile ```
 }
 
 
