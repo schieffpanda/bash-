@@ -5,6 +5,7 @@ Replace every instance of 'cat' in "infile" with 'dog'.
 Replace every instance of 'Navy' in "infile" with 'Army'.
 Replacements are case-sensitive.
 Write the output to the file specifed by the variable 'outfile'.
+code block
 function q1()
 {
   #Valid Variables are:
