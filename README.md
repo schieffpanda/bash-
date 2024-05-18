@@ -91,17 +91,17 @@ function q1()
 
   touch -t  $filedate'1730' $newfile
 }
-student@lin-ops:~$ filedate=$2
-student@lin-ops:~$ filedate=20240516
-student@lin-ops:~$ echo filedate
+ filedate=$2
+filedate=20240516
+echo filedate
 filedate
-student@lin-ops:~$ echo $filedate
+echo $filedate
 20240516
-student@lin-ops:~$ echo $filedate1730
+echo $filedate1730
 
-student@lin-ops:~$ echo '$filedate1730'
+echo '$filedate1730'
 $filedate1730
-student@lin-ops:~$ echo $filedate'1730'
+echo $filedate'1730'
 202405161730
 
 # 7.Read the file specified by fname and perform an action based on the contents of the file:
